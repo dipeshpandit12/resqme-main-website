@@ -21,7 +21,6 @@ import {
 import {
   Bell,
   User,
-  Settings,
   PhoneCall,
   Clock,
   Activity,
@@ -38,7 +37,7 @@ import {
 export default function DashboardPage() {
   const [primaryContact, setPrimaryContact] = useState("John Doe");
   const [primaryPhone, setPrimaryPhone] = useState("(512) 555-0187");
-  
+
   // Mock user info
   const user = {
     name: "Sam Rivera",
@@ -47,7 +46,7 @@ export default function DashboardPage() {
     address: "1218 West Ave, Austin, TX 78701",
     memberSince: "April 26, 2025",
   };
-  
+
   // Mock alert history
   const alertHistory = [
     {

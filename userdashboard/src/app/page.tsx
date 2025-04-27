@@ -8,9 +8,7 @@ import {
   Shield,
   MessageSquare,
   Clock,
-  MapPin,
   Users,
-  MessageCircle,
 } from "lucide-react";
 
 import Chatbot from "@/components/chatbot/chatbot";
@@ -188,7 +186,7 @@ export default function HomePage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="/signup">
+                <Link href="/">
                   Sign Up Now <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
